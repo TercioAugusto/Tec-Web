@@ -1,0 +1,119 @@
+<!DOCTYPE html> <!-- identifica que é uma versão HTML -->
+<html lang="pt-br"> <!-- definição da linguagem do site -->
+  
+<head> <!-- cabecaho -->
+  <meta charset="utf-8"> <!-- configura a acentuação -->
+  <title>Estudo sobre HTML</title> <!-- define o título da pagina -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico"> <!-- define o ícone da pagina -->
+  <style> 
+  h1 {
+    color: green; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+  }
+  h2 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140%;
+  }
+  pre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+  }  
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+  }  
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style> <!-- define o estilo da pagina -->
+</head> <!-- fim tag head -->
+  
+<body style="background-color: #f5f5f5;"> <!-- corpo com alteração do fundo da pagina -->
+  
+  <p><a href="#H1">Para que serve o HTML?</a></p> <!-- link para a seção H1 -->
+  <hr> <!-- linha horizontal -->
+  <h1><b>Introdução ao HTML</b></h1> <!-- título com negrito -->
+  <p>HTML é a linguagem de marcação padrão para criar páginas da Web.<br><br>Um site médio inclui diversas páginas HTML diferentes. Por exemplo, ele pode trazer uma página inicial, uma página “sobre” e uma página de contato. Cada uma delas possui um arquivo HTML separado.</p> <!-- parágrafo com quebra de linha -->
+  <p><strong>Para acessar o site de onde foi retirado o conteúdo, basta clicar na imagem seguinte:</strong></p> <!-- parágrafo com indicação de que é um texto importante -->
+  <a title="Clique aqui" href="https://www.w3schools.com/html/html_basic.asp" target="_blank"><img src="w3-logo.png" width="70" height="50"></a> <!-- link com negrito -->
+  <hr> <!-- linha horizontal -->
+  <h2><b>O que é HTML?</b></h2> <!-- subtitulo com negrito -->
+  <pre><strong>As principais definições de HTML são:</strong>
+    
+- HTML significa Hyper Text Markup Language;
+    
+- HTML descreve a estrutura de uma página da Web;
+    
+- Os elementos HTML informam ao navegador como exibir o conteúdo;
+    
+- Os elementos HTML rotulam partes de conteúdo como "este é um título", "este é um parágrafo", "este é um link", etc.</pre> <!-- texto pré-formatado com indicação de que é um texto importante -->
+  <hr> <!-- linha horizontal -->
+  <h2 id="H1"><b>Para que serve o HTML?</b></h2> <!-- subtitulo com negrito e link para o capitulo -->
+  <p>O HTML (Hypertext Markup Language) é a linguagem fundamental para criar e estruturar páginas na web.<br><br>Ele define a estrutura do conteúdo, como títulos, parágrafos e links.<br><br>Através de tags e atributos, o HTML permite organizar e formatar texto e elementos multimídia.<br><br>Seu uso é crucial para o desenvolvimento de sites e aplicações online.</p> <!-- parágrafo com quebra de linha -->
+  <hr> <!---->
+  <h2><b>Quais são os sites para estudo?</b></h2> <!-- subtitulo com negrito -->
+  <p>Abaixo estão alguns sites para estudo de HTML, CSS e JavaScript<br><br><strong>Basta clicar na logo desejada:</strong></p> <!-- parágrafo com indicação de que é um texto importante -->
+  <img src="html.png" alt="image html" usemap="#workmap"> <!-- imagem com link para o mapa -->
+  <map name="workmap">
+    <area shape="rect" coords="1, 1, 99, 111" href="https://www.w3schools.com/css/default.asp" onclick="myFunction()"> <!-- area do mapa -->
+    <area shape="rect" coords="143, 1, 242, 111" href="https://www.w3schools.com/html/html_basic.asp" onclick="myFunction2()"> <!-- area do mapa -->
+    <area shape="rect" coords="297, 3, 396, 111" href="https://www.w3schools.com/js/default.asp" onclick="myFunction3()"> <!-- area do mapa -->
+  <script>
+    function myFunction() {
+      alert("Você escolheu o site de CSS");
+    }
+  </script> <!-- script para o alerta --> 
+  <script>
+    function myFunction2() {
+      alert("Você escolheu o site de HTML");
+    }
+  </script> <!-- script para o alerta --> 
+  <script>
+    function myFunction3() {
+      alert("Você escolheu o site de JavaScript");
+    }
+  </script> <!-- script para o alerta --> 
+<hr> <!-- linha horizontal -->
+<h2><b>O que são tabelas em HTML?</b></h2> <!-- subtitulo com negrito -->
+<p>As tabelas em HTML são elementos usados para exibir dados tabulares, organizando informações em linhas e colunas.</p>   
+<p><strong>Exemplo:</strong></p>  <!-- parágrafo com indicação de que é um texto importante -->
+<br>    
+<table>
+  <tr>
+     <th>HTML</th>
+     <th>CSS</th>
+     <th>JavaScript</th>
+  </tr>
+  <tr>
+    <td>Estrutura de páginas web</td>
+    <td>Estilo visual de páginas web</td>
+    <td>Interatividade de páginas web</td>
+  </tr>
+  <tr>
+    <td>Marcação de texto</td>
+    <td>Formatação de layout</td>
+    <td>Dinâmica de comportamento</td>
+  </tr>
+  <tr>
+    <td>Organização de elementos</td>
+    <td>Aparência visual</td>
+    <td>Controle de eventos</td>
+  </tr>
+</table> <!-- tabela -->
+</body> <!-- fim tag body -->
+
+</html> <!-- fim tag html -->
