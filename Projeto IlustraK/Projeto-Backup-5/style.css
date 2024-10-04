@@ -1,0 +1,323 @@
+@font-face {
+  font-family: 'fontk';
+  src: url('font/fontk.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#form-loja {
+  width: 70vh;
+  height: auto;
+  font-family: 'fontk', sans-serif;
+  font-size: 20px;
+}
+
+#form-loja2 {
+  width: 30vh;
+  height: auto;
+  font-family: 'fontk', sans-serif;
+  font-size: 20px;
+}
+
+.form-carousel-container {
+  display: flex;
+  justify-content: space-between; /* Espaço entre o formulário e o carrossel */
+  align-items: flex-start; /* Alinha ambos ao topo */
+  margin-top: 20px; /* Espaço entre o contêiner e o conteúdo anterior */
+  margin-top: 10vh;
+}
+
+#formulario {
+  width: 50%; /* Ajuste conforme necessário */
+}
+
+#carousel {
+  width: 35%; /* Ajuste conforme necessário */
+  margin-top: 8vh;
+}
+
+#button-form {
+  margin-top: 25px;
+}
+
+#tabela-loja {
+  font-family: 'fontk', sans-serif;
+  font-size: 20px;
+  width: 120vh;
+  height: auto;
+  text-align: center;
+  border-color: #5a0cab;
+}
+
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250vh;
+  height: 250vh;
+}
+
+#text-loja {
+  color: #7630ff;
+  font-family: 'fontk', sans-serif;
+}
+
+.content-section4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Deixa espaço entre os elementos */
+  gap: 10vh;
+}
+
+.content-section {
+  display: flex;
+  justify-content: space-between; /* Deixa espaço entre os elementos */
+  align-items: center; /* Alinha verticalmente os itens */
+  padding: 20px; /* Ajuste conforme necessário */
+  background-color: #000; /* Fundo */
+  color: white;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.content-section2 {
+  display: flex;
+  justify-content: space-between; /* Deixa espaço entre os elementos */
+  align-items: center; /* Alinha verticalmente os itens */
+  padding: 20px; /* Ajuste conforme necessário */
+  background-color: #000; /* Fundo */
+  color: white;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.content-section3 {
+  display: flex;
+  justify-content: space-around; /* Deixa espaço entre os elementos */
+  align-items: center; /* Alinha verticalmente os itens */
+  padding: 20px; /* Ajuste conforme necessário */
+  background-color: #000; /* Fundo */
+  color: white;
+  padding-bottom: 100px;
+}
+
+.content-section {
+  display: flex;
+  text-align: center; /* Alinha verticalmente os itens */
+  padding: 20px; /* Ajuste conforme necessário */
+  background-color: #000; /* Fundo */
+  color: white;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+#carousel2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 8vh;
+  align-items: center;
+}
+
+#carousel3 {
+  width: 35%; /* Ajuste conforme necessário */
+  margin-top: 6vh;
+}
+
+#carouselExampleFade3 {
+  width: 65vh;
+  height: 65vh;
+}
+
+#carouselExampleFade2 {
+  width: 100%;
+  height: 100%;
+}
+
+
+#carouselExampleFade {
+  width: 50vh;
+  height: 50vh;
+}
+
+.text-content {
+  width: 50%; /* O texto ocupará metade da largura */
+  text-align: center; /* Centraliza o texto */
+}
+
+.text-content h1, 
+.text-content p, 
+.text-content button {
+  margin-bottom: 20px; /* Espaçamento entre os itens */
+}
+
+.text-content button {
+  padding: 10px 20px;
+  background-color: #6a0dad; /* Ajuste para a cor desejada */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.text-content button:hover {
+  background-color: #5a0cab; /* Efeito hover para o botão */
+}
+
+.image-content {
+  width: 40%; /* A imagem ocupará 40% da largura */
+  display: flex;
+  justify-content: flex-end; /* Alinha a imagem à direita */
+}
+
+.image-content img {
+  max-width: 100%; /* Reduz o tamanho da imagem para se ajustar à div */
+  height: auto;
+  border-radius: 10px; /* Apenas se você quiser cantos arredondados */
+}
+
+body {
+  margin: 0; /* Remove a margem padrão do body */
+  padding-top: 10vh; /* Adiciona padding superior igual à altura do nav */
+  font-family: 'fontk', sans-serif; /* Define a fonte padrão para todo o corpo da página */
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: black; /* Define o fundo do site como preto */
+  color: white; /* Define a cor do texto como branco para contraste */
+}
+
+h1, h2, h3, p, a, button, small {
+  font-family: 'fontk', sans-serif !important;
+}
+
+h1, h2 {
+  font-size: 2rem; /* Ou outro valor relativo */
+}
+
+nav {
+  height: 10vh; /* Altura relativa à altura da viewport */
+  width: 200vw; /* Largura relativa à largura da viewport */
+  max-width: 1150px; /* Máxima largura para garantir que não fique muito grande em telas grandes */
+  border-radius: 70px;
+  background-color: #7630ff;
+  margin: 0 auto; /* Centraliza o nav horizontalmente */
+  position: fixed;
+  top: 0;
+  left: 50%; /* Define o ponto inicial como 50% da largura da viewport */
+  transform: translateX(-50%); /* Ajusta o elemento para que fique centralizado */
+  display: flex; /* Adiciona flexbox */
+  align-items: center; /* Alinha verticalmente os itens */
+  justify-content: space-around; /* Distribui os itens */
+  padding: 0 5vw; /* Padding relativo à largura da viewport */
+  padding-top: 1vw;
+  box-sizing: border-box;
+  z-index: 1000;
+  font-size: 2vw; /* Tamanho da fonte relativo à largura da viewport */
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  position: relative; /* Necessário para posicionar a linha */
+  display: inline-flex; /* Permite que os ícones sejam exibidos lado a lado */
+  margin: 0 1vw; /* Ajuste o espaço entre os itens conforme necessário */
+  
+}
+
+.imagem-troca-container {
+  display: inline-flex; /* Garante que os ícones fiquem lado a lado */
+}
+
+nav img {
+  width: 30px; /* Ajuste o tamanho dos ícones conforme necessário */
+  height: 30px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a:hover::after {
+  transform: scaleX(1); /* Mostra a linha ao passar o mouse */
+  transform-origin: bottom left; /* Ponto de origem da transformação ao passar o mouse */
+}
+
+nav a::after {
+  content: ""; /* Cria um pseudo-elemento */
+  position: absolute; /* Posiciona a linha em relação ao link */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px; /* Altura da linha */
+  background-color: white; /* Cor da linha */
+  transform: scaleX(0); /* Inicialmente oculta */
+  transform-origin: bottom right; /* Ponto de origem da transformação */
+  transition: transform 0.3s ease; /* Transição suave */
+}
+
+.imagem-troca {
+  display: block;
+  width: 35px; /* Define a largura da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  transition: opacity 0.3s ease;
+}
+
+.center-content {
+  display: grid;
+  place-items: center;
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 20px; /* Opcional: adiciona espaçamento interno */
+  margin-top: 40px; /* Espaço no topo da seção */
+  margin-bottom: 40px; /* Espaço na parte inferior da seção */
+}
+
+.images-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap; /* Garante que as imagens fiquem na mesma linha */
+  gap: 20px; /* Adiciona mais espaço entre as imagens */
+  margin-bottom: 40px; /* Espaço entre a galeria de imagens e a próxima seção */
+}
+
+.img-gallery {
+  flex: 1 1 24%; /* Ajusta a largura das imagens para se adaptarem ao contêiner e manter a margem */
+  max-width: calc(25% - 20px); /* Ajusta a largura das imagens para se adaptarem ao contêiner com margem */
+  height: auto; /* Mantém a proporção das imagens */
+  margin: 0; /* Remove margem extra para evitar problemas de layout */
+}
+
+.text-container {
+  margin-top: 40px; /* Ajuste o espaço acima do texto */
+  margin-bottom: 30px; /* Espaçamento entre o texto e a galeria de imagens */
+  text-align: center; /* Centraliza o texto */
+  
+}
+
+button {
+  background-color: #7630ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px; /* Deixa o botão com bordas bem arredondadas */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Efeito de transição suave */
+}
+
+button:hover {
+  background-color: #5b24c9; /* Cor mais escura ao passar o mouse */
+  transform: scale(1.05); /* Aumenta ligeiramente o botão ao passar o mouse */
+}
+  
+.main-content {
+    margin-bottom: 40px; /* Espaço entre a seção principal e a próxima */
+    padding-bottom: 100px;
+}
+
+footer {
+    margin-top: 40px; /* Espaçamento entre o conteúdo e o rodapé */
+}
