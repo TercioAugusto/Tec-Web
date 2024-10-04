@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style></style>
+ 
+</head>
+<body>
+    <h1>Exercicios</h1>
+    <p> Faça uma tela em html para ler dois numeros, calcular a soma e exibir o resultado.</p>
+    <hr>
+ 
+ 
+    <label> Digite numero 1:</label>
+    <input type="number" value="0" id="numero1">
+    <br><br>
+    <label> Digite numero 2:</label>
+    <input type="number" value="0" id="numero2">
+    <br><br>
+    <button onclick="soma()" >Somar</button>
+    <br><br>
+    <div id="resultado">
+         O resultado deve ser exibido aqui
+    </div>
+ 
+    <script>
+ 
+        function soma() {
+   
+            let numero1 = Number(document.getElementById("numero1").value);
+ 
+            let numero2 = Number(document.getElementById("numero2").value);
+ 
+            let resultado = numero1 + numero2;
+           
+            document.getElementById('resultado').innerHTML="<h1> Resultado: "+ resultado +"</h1>";
+     
+        }
+   
+     </script>
+</body>
+</html>

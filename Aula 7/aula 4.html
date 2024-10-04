@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+ 
+$(document).ready(function(){
+ 
+	$("#exibir").click(function(){
+	  let url = "https://economia.awesomeapi.com.br/json/last/USD";
+	  $.get(url, function(data, bid){
+		alert("Valor: " + data.USDBRL.bid);
+		console.log(data.USDBRL.bid);
+	  });
+	});
+ 
+});
+ 
+</script>
+</head>
+<body>
+ 
+<button id="exibir">Exibir</button>
+ 
+</body>
+</html>

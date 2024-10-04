@@ -1,0 +1,6 @@
+$document - chama o documento escolhido
+.ready - inicia quando estiver pronto
+display none - esconde o conteudo
+----------
+
+https://brasilapi.com.br/ - site das api

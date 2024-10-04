@@ -1,0 +1,58 @@
+------------ Cod 2 ---------------
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+<meta charset="utf-8">
+<title>Minha loja virtual</title>
+<style>
+    .amarelo {
+      background-color: yellow;
+    }
+</style>
+</head>
+ 
+<body>
+ 
+  <header class="amarelo">
+<img src="img/linux.png" alt="logotipo da empresa" title="Logotipo da empresa Linux">
+<hr>
+<nav>
+<a href="https://www.estacio.br">Site da Estácio</a>
+</nav>
+</header>
+ 
+  <h1>Nossos serviços</h1>
+<ol>
+<li>Remoção de Virus</li>
+<li>Instalação de sistema operacional Linux</li>
+<li><i>Backup</i> na nuvem</li>
+</ol>
+<ul>
+<li>Recuperamos seu HD</li>
+<li> Consertamos seu Xbox 360</li>
+</ul>
+ 
+  <table border="1">
+<tr>
+<th>Produtos / Serviços</th>
+<th>Valor</th>
+</tr>
+<tr>
+<td>Monitor 250 polegadas</td>
+<td>R$250,00</td>
+</tr>
+<tr>
+<td>Mouse optico 3D</td>
+<td>R$50,00</td>
+</tr>
+<tr>
+<td>Cooler a água</td>
+<td>R$75,00</td>
+</tr>
+</table>
+</body>
+ 
+</html>
+tem menu de contexto

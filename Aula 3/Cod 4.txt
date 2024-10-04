@@ -1,0 +1,61 @@
+
+---------- css -------
+style2.css
+html {
+  height: 100%;
+  width: 100%;
+}
+ 
+p {
+  color: green
+}
+ 
+ 
+h1 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+ 
+.corfundo-amarela {
+  background-color: yellow;
+ 
+}
+ 
+.corletra-azul {
+  color: blue;
+}
+
+-----------html-------------
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+<meta charset="utf-8">
+<title>Minha loja virtual</title>
+<link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+ 
+  <h1 class="corfundo-amarela">Teste 1</h1>
+<p style="color:#cb0003;"> linha 1 </p>
+ 
+  <h1 class="corfundo-amarela corletra-azul">Teste 2</h1>
+<p> linha 2 </p>
+ 
+  <footer>
+<hr>
+<small> Todos os direitos reservados</small>
+</footer>
+ 
+ 
+</body>
+ 
+</html>

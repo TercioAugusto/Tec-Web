@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+      $("#exibir").click(function () {
+ 
+        let url = "https://economia.awesomeapi.com.br/json/last/USD";
+ 
+        let valorReais = parseFloat($("#fipe").val());
+        $.get(url, function (data, status) {
+          if (status === "success") {
+ 
+            let dolar = data.USDBRL;
+            let cotacaoDolar = parseFloat(dolar.bid);
+ 
+            let valorConvertido = (valorReais / cotacaoDolar).toFixed(2);
+ 
+            let resultado = "R$ " + valorReais + " equivalem a $ " + valorConvertido + " dolares.";
+            $("#resultado").html(resultado);
+          } else {
+            $("#resultado").html("Erro ao obter a cotação.");
+          }
+        });
+      });
+    });
+</script>
+</head>
+ 
+<body>
+ 
+  <label>Exibir:</label>
+<input type="text" id="fipe" placeholder="">
+<br><br>
+ 
+  <button id="exibir">Converter</button>
+<br><br>
+ 
+  <div id="resultado"></div>
+</body>
+ 
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+ 
+$(document).ready(function(){
+ 
+	$("#calcular").click(function(){
+		let numero1 =  Number($("#numero1").val());
+		let numero2 =  Number($("#numero2").val());
+		resultado = numero1 + numero2;
+		alert("Resultado: " + resultado);
+	  });
+});
+ 
+</script>
+</head>
+<body>
+ 
+<label>Numero 1</label>
+<input type="number" id="numero1">
+<br><br>
+<label>Numero 2</label>
+<input type="number" id="numero2">
+<br><br>
+ 
+<button id="calcular">Calcular</button>
+ 
+</body>
+</html>

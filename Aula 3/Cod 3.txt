@@ -1,0 +1,81 @@
+CSS
+
+style (dentro do codigo) - coloca o estilo na linha apenas
+
+<style> - cria uma formatação de estilo para a pagina
+
+link - (dentro de um doc CSS)
+
+<footer> - rodapé da página
+
+.nome ex: corfundo-amarelo {
+estilo
+} - criar uma classe
+
+class="nome" - puxar a classe
+
+-------------- html ----------
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+<meta charset="utf-8">
+<title>Minha loja virtual</title>
+<link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+ 
+  <h1>Teste 1</h1>
+<p style="color:#cb0003;"> linha 1 </p>
+ 
+  <h1>Teste 2</h1>
+<p> linha 2 </p>
+ 
+  <p> linha 3</p>
+ 
+</body>
+ 
+</html>
+ 
+
+
+--------- style.css ----------
+
+
+html {
+
+  height: 100%;
+
+  width: 100%;
+
+}
+ 
+p {
+
+  color: green
+
+}
+ 
+ 
+h1 {
+
+  display: block;
+
+  font-size: 1.17em;
+
+  margin-block-start: 1em;
+
+  margin-block-end: 1em;
+
+  margin-inline-start: 0px;
+
+  margin-inline-end: 0px;
+
+  font-weight: bold;
+
+  unicode-bidi: isolate;
+
+}
+ 

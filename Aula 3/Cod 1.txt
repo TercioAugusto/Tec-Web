@@ -1,0 +1,101 @@
+<header> - cria um cabeçalho da pagina
+<div> - cria uma divisoria na pagina
+<nav> - para criar menus
+<aside> - publicidade
+<section> - cria uma seção
+<article> - cria um artigo
+<ol> - lista ordenada (números)
+<ul> - lista não ordenada (°)
+<li> itens da lista
+<table> - tabela
+<tr> - linha
+<td> - coluna
+<th> - linha destacada
+border=1 - colocar as linhas da tabela (table)
+----------------------------- cod 1 -----------------------------
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+<meta charset="utf-8">
+<title>Minha loja virtual</title>
+<style>
+
+    .amarelo {
+
+      background-color: yellow;
+
+    }
+</style>
+</head>
+ 
+<body>
+ 
+  <header class="amarelo">
+<img src="img/linux.png" alt="logotipo da empresa" title="Logotipo da empresa Linux">
+<hr>
+<nav>
+<a href="https://www.estacio.br">Site da Estácio</a>
+</nav>
+</header>
+ 
+  <aside>
+<p>Exmplo de comercial</p>
+</aside>
+ 
+  <section>
+<h1>Carros</h1>
+<article>
+<h1>
+
+        Envelopamento vai além da pintura e personaliza seu carro de outras formas</h1>
+<p>
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+ 
+      </p>
+</article>
+<article>
+<h1>
+ 
+        Stellantis investirá R$ 2,1 bi e fabricará três novos carros na Argentina</h1>
+<p>
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+ 
+      </p>
+</article>
+</section>
+ 
+  <hr>
+<section>
+<h1>Motos</h1>
+<article>
+<h1>
+
+        Envelopamento vai além da pintura e personaliza seu carro de outras formas</h1>
+<p>
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+ 
+      </p>
+</article>
+<article>
+<h1>
+ 
+        Stellantis investirá R$ 2,1 bi e fabricará três novos carros na Argentina</h1>
+<p>
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+ 
+      </p>
+</article>
+</section>
+ 
+</body>
+ 
+</html>
+ 
+
+---------------------------------------------------------------- cod 2 -----------------------------------------------------------------------------------------------------
